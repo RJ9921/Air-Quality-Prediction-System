@@ -22,7 +22,7 @@ with st.sidebar:
                 "color":"317202A"
             },
             "nav-link-selected":{
-                "background-color":"#E77E7F"
+                "background-color":"#fedc57"
             },
             "icon":{
                 "font-size":"20px"
