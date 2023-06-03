@@ -15,7 +15,7 @@ with st.sidebar:
         options=['Home','Prediction'],
         icons=['house','book'],
         styles={
-            "container":{"background-color":"#DCF39C"},
+            "container":{"background-color":"#f67704"},
             "nav-link":{
                 "font-size":"21px",
                 "--hover-color":"#E199EA",
