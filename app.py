@@ -18,7 +18,7 @@ with st.sidebar:
             "container":{"background-color":"#f67704"},
             "nav-link":{
                 "font-size":"21px",
-                "--hover-color":"#E199EA",
+                "--hover-color":"#facf7d",
                 "color":"317202A"
             },
             "nav-link-selected":{
