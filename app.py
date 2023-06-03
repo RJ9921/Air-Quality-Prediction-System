@@ -12,7 +12,7 @@ import numpy as np
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home','Prediction'],
+        options=['Home','Air Prediction'],
         icons=['house','book'],
         styles={
             "container":{"background-color":"#f67704"},
@@ -55,7 +55,7 @@ if selected == 'Home':
 
     
 
-if selected=='Prediction':
+if selected=='Air Prediction':
     file_=open("air2.gif","rb")
     contents=file_.read()
     data_url=base64.b64encode(contents).decode("utf-8")
