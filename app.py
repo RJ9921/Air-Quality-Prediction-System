@@ -89,9 +89,9 @@ if selected=='Air Prediction':
         print(prediction)
 
         if (prediction[0] == 0):
-            return 'Quality of Air is Poor'
+            return 'Quality of Air is Poor and Bad for Human'
         else:
-            return 'Quality of Air is Good'
+            return 'Quality of Air is Good and Better for Human'
     def main(): 
 
 
