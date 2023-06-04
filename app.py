@@ -58,13 +58,13 @@ if selected == 'Home':
     
 
 if selected=='Air Prediction':
-    file_=open("air2.gif","rb")
+    file_=open("air3.png","rb")
     contents=file_.read()
     data_url=base64.b64encode(contents).decode("utf-8")
     file_.close()
 
     st.markdown(
-        f'<img src="data:image/gif;base64,{data_url}" width="700" image-align="center"  alt="air2 gif">',
+        f'<img src="data:image/gif;base64,{data_url}" width="700" image-align="center"  alt="air3 png">',
         unsafe_allow_html=True, )
 
     st.markdown("""
