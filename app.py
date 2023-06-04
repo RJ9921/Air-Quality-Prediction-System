@@ -48,6 +48,8 @@ if selected == 'Home':
     contents=file_.read()
     data_url=base64.b64encode(contents).decode("utf-8")
     file_.close()
+    st.markdown(' <p class="paragraph"> Predicting air quality is necessary step to be taken by government as it is becoming the major concern among the health of human beings. Air quality Index measure the quality of air. Various air pollutants causing air pollution are Carbon dioxide, Nitrogen dioxide, carbon monoxide etc that are released from burning of natural gas, coal and wood, industries, vehicles etc. Air Pollution can cause severe disease like lungs cancer, brain disease and even lead to death. Machine learning algorithms helps in determining the air quality index.  </p>',
+    unsafe_allow_html=True)
 
     st.markdown(
         f'<img src="data:image/gif;base64,{data_url}" width="750" length="500" image-align="center"  alt="air2">',
